@@ -1,0 +1,243 @@
+📘 MASTER PLAN — FINALNA VERZIJA (AI / Python knjiga)
+🎯 CILJ KNJIGE
+
+Cilj knjige je da čitaoca dovede od početnika do nivoa AI inženjera koji:
+
+razume kako modeli rade (ne koristi ih napamet)
+zna kada model NE treba koristiti
+ume da analizira zašto model greši
+ume da debaguje AI sistem
+ume da izgradi realan AI pipeline spreman za produkciju
+
+Ovo NIJE kurs.
+
+Ovo NIJE kolekcija primera.
+
+👉 Ovo je inženjerski trening za razmišljanje u AI sistemima.
+
+🧠 TRI NIVOA KOJA SE MORAJU POSTIĆI
+
+Svako poglavlje mora voditi čitaoca kroz:
+
+Radi
+Razumem
+Znam zašto ne radi i kako da popravim
+
+Ako treći nivo ne postoji → poglavlje nije dovoljno dobro.
+
+📚 STRUKTURA KNJIGE
+🧱 0. FRONT MATTER
+
+0.1 Naslovna
+0.2 Copyright
+0.3 Predgovor
+0.4 Kako koristiti knjigu (VAŽNO)
+0.5 Sadržaj
+
+🟢 DEO 1 — OSNOVE KOJE RADE (KERAS)
+
+Fokus: razumevanje bez straha + prvi rezultati
+
+Prvi model za 10 minuta (bez magije)
+Podaci: učitavanje, čišćenje, vizualizacija
+Regresija — prvi pravi model
+Klasifikacija — kako model odlučuje
+Neural network — šta se zapravo dešava
+Problem slike → zašto dense ne radi
+CNN — prvi pravi model za slike
+Projekat: ANPR v1
+Projekat: Brzina vozila v1
+Projekat: Trading v1
+🟡 DEO 2 — MODELI KOJI SE RAZUMEJU (KERAS + PYTORCH)
+
+Fokus: kontrola, greške, poboljšanja
+
+Zašto modeli greše (overfitting, data problemi)
+Regularizacija i stabilnost modela
+Optimizacija (learning rate, optimizeri)
+Feature engineering (kritično poglavlje)
+Sekvencijalni modeli (LSTM/GRU)
+Trading v2 (sekvence + validacija)
+Uvod u PyTorch (mentalni model)
+Isti model: Keras vs PyTorch
+CNN upgrade (augmentacija, poboljšanja)
+ANPR v2
+Brzina vozila v2
+🔴 DEO 3 — AI SISTEMI (PYTORCH)
+
+Fokus: realni sistemi, ne modeli
+
+AI kao sistem (pipeline razmišljanje)
+API za model (FastAPI)
+Deployment (Docker, servis)
+Monitoring i logovanje modela
+Ensemble modeli (ključni deo knjige)
+Trading v3 (multi-model sistem)
+ANPR v3 (real-time sistem)
+Brzina vozila v3 (pokretna kamera)
+Kada AI ne radi (kritičko razmišljanje)
+🧩 DODATAK
+FAQ (po poglavljima ili centralizovan)
+Projekti za vežbu
+Rečnik pojmova
+Reference
+⚙️ STRUKTURA POGLAVLJA (PRILAGOĐENA AI TEMI)
+
+Ovo je KRITIČNO — ovde se knjiga dobija ili gubi.
+
+Svako poglavlje mora imati:
+
+1. Problem (realan, konkretan)
+
+NE: “Danas učimo CNN”
+DA: “Imamo problem koji trenutni model ne rešava”
+
+2. ⚡ Instant rezultat (1–2 minuta)
+minimalan kod
+odmah vidljiv rezultat
+bez teorije pre toga
+
+👉 čitalac mora odmah da vidi da “radi nešto”
+
+3. Pokušaj postojećim pristupom
+koristi prethodni model
+pokaže gde puca
+
+👉 OBAVEZNO: konkretan neuspeh
+
+4. Gde je stvarni problem
+jasno, bez filozofije
+šta model ne vidi / ne razume
+5. Novi način razmišljanja
+ideja modela (intuitivno)
+6. Uvođenje modela (ime tek sada)
+
+👉 tek sada: CNN, LSTM itd.
+
+7. Kod (glavni deo)
+jasan
+postepen
+bez skokova
+8. Objašnjenje koda (red po red)
+
+NE SME se preskočiti.
+
+9. Rezultat i analiza
+šta radi dobro
+gde greši
+10. 🔴 Zamke i greške
+
+Minimum 3.
+
+Format:
+
+// ===== GREŠKA =====
+// ===== ISPRAVNO =====
+
+Mora biti realno, ne teorijski.
+
+11. 🔍 Debugging: Kako puca
+
+Obavezno:
+
+simptomi
+uzrok
+kako prepoznati
+kako rešiti
+način razmišljanja
+12. 🧠 Mentalni model
+
+Primeri:
+
+“CNN gleda sliku kroz prozor”
+“LSTM pamti kroz vreme”
+“Model je funkcija, ne inteligencija”
+13. Unapređenje
+1–2 konkretna poboljšanja
+bez preterivanja
+14. FAQ (20–30 pitanja)
+
+👉 ovo je OGROMNA vrednost knjige
+
+⚡ CODE-FIRST PRAVILO (ZADRŽANO, ALI PRILAGOĐENO)
+
+✔ čitalac mora VIDETI rezultat odmah
+✔ ali MORA i razumeti zašto radi
+
+👉 balans između brzine i razumevanja
+
+🔴 KRITIČNE ZABRANE (AŽURIRANO ZA AI)
+
+Zabranjeno:
+
+“framework radi ovo u pozadini” bez objašnjenja
+veliki kod bez razbijanja
+modeli bez razloga postojanja
+teorija bez primene
+copy-paste stil
+🧠 MENTALNI MODELI (OBAVEZNO)
+
+Minimum jedan po poglavlju.
+
+Moraju:
+
+pojednostaviti kompleksne stvari
+pomoći u debug-u
+biti praktični
+🔍 DEBUGGING (POJAČANO — KLJUČNA RAZLIKA)
+
+Ova knjiga mora biti jača od drugih baš ovde.
+
+Svako poglavlje:
+
+👉 mora učiti kako razmišljati kada model ne radi
+
+Ne samo “rešenje”.
+
+🟡 REAL-WORLD PRISTUP (PRILAGOĐEN)
+
+Svako poglavlje mora imati:
+
+realan dataset ili scenario
+ili vezu sa glavnim projektima
+📏 PRAVILO DUŽINE
+
+Zadržano — jer je ODLIČNO:
+
+✔ ne skraćivati
+✔ uvek ići dublje
+
+Ali:
+
+👉 dubina mora imati svrhu
+👉 ne širiti bez potrebe
+
+🧱 INTEGRITET SADRŽAJA
+
+✔ zadržati dobro
+✔ unaprediti slabo
+✔ proširiti gde treba
+
+🚫 ŠTA JE IZBAČENO (NAMERNO)
+
+Iz originalnog plana sam izbacio:
+
+❌ UI / layout / frontend logiku
+❌ previše “aplikacionih” sekcija
+❌ generičke “production” fraze bez AI konteksta
+
+Jer:
+
+👉 ova knjiga je o modelima i sistemima, ne o UI-u
+
+🎯 FINALNI CILJ
+
+Čitalac mora:
+
+da pokrene model
+da razume ZAŠTO radi
+da vidi kada ne radi
+da zna kako da ga popravi
+da ume da napravi sistem
+
+Ako ovo nije ispunjeno → poglavlje nije dovoljno dobro
